@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: plum;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dnone {
+    display: none;
+    visibility: hidden;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.head-title {
+    font-family: 'Road Rage', cursive;
+    font-size: 64px;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 32%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+.card-img {
+    width: 100%;
+    overflow: hidden;
+}
+.card-img-block {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+h3 {
+    margin-bottom: 10px;
+}
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+aside {
+    position: fixed;
+    top: 100px;
+    left: 10px;
+}
