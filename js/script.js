@@ -70,7 +70,6 @@ const renderChar = (item) => {
         allFilm.append(film)  
     }
     
-    
     card.classList.add('card')
     headerCard.classList.add('card-header')
     imgCard.classList.add('card-img')
